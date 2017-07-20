@@ -1,6 +1,6 @@
 Pod::Spec.new do |s| 
 	s.name         = "GizWifiSDK"
-	s.version      = "2.07.07.1"
+	s.version      = "2.07.07.11713"
 	s.summary      = "GizWifiSDK static library for iOS"
 	s.description  = "GizWifiSDK is a Wi-Fi hardware communication toolkit. Support architechures: armv7, arm64, x86_64, i386"
 	s.homepage     = "http://dev.gizwits.com/"
