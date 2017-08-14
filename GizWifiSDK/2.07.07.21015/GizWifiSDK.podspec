@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 	s.ios.preserve_paths      = 'Library/libGizWifiSDK.a', 'Library/libcrypto.a', 'Library/libssl.a', 'Library/libEasyLink.a', 'Library/libLibSimpleConfig.a', 'Library/libEsptouch_v0.3.5.2.a', 'Library/libWMOneShotConfig.a', 'Library/libBLEasyConfig.a'
 	s.ios.vendored_libraries  = 'Library/libGizWifiSDK.a', 'Library/libcrypto.a', 'Library/libssl.a', 'Library/libEasyLink.a', 'Library/libLibSimpleConfig.a', 'Library/libEsptouch_v0.3.5.2.a', 'Library/libWMOneShotConfig.a', 'Library/libBLEasyConfig.a'
 	
-	s.libraries = 'GizWifiSDK', 'crypto', 'ssl', 'EasyLink', 'LibSimpleConfig', 'Esptouch_v0.3.5.2', 'WMOneShotConfig', 'BLEasyConfig'
+	s.libraries = 'GizWifiSDK', 'crypto', 'ssl', 'EasyLink', 'LibSimpleConfig', 'Esptouch_v0.3.5.2', 'WMOneShotConfig', 'BLEasyConfig', 'z'
 	s.requires_arc = true
 end
 
