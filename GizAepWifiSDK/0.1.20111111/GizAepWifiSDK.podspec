@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
   s.requires_arc = true
-  s.source_files  = "framework/*.framework/Headers/*.h"
+  s.source_files  = "GizAepWifiSDK/GizAepWifiSDK.framework/Headers/*.h"
   s.vendored_frameworks = "framework/*.framework"
   # s.exclude_files = "Classes/Exclude"
 
